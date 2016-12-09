@@ -1,0 +1,33 @@
+[1mFeature:[22m Check all search field - BART
+
+  [1mBackground:[22m                                            [30m# features\BO\bart\other__bart\menu__bart\check_all_search_field__bart.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m            [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario Outline:[22m Check all search field - BART [30m# features\BO\bart\other__bart\menu__bart\check_all_search_field__bart.feature:11[39m
+    [36mAnd I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m                     [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                       [39;22m|
+      |[32m open/close                 [39m|
+      |[32m Rechercher                 [39m|
+      |[32m Bookmarks                  [39m|
+      |[32m History                    [39m|
+      |[32m RSS Stories                [39m|
+      |[32m Fulltext Search            [39m|
+      |[32m Title                      [39m|
+      |[32m Type of content            [39m|
+      |[32m Theme tags                 [39m|
+      |[32m Emission                   [39m|
+      |[32m Tag author                 [39m|
+      |[32m Node number (nid)          [39m|
+      |[32m Created between two dates: [39m|
+      |[32m Date de début :            [39m|
+      |[32m Date de fin :              [39m|
+
+15 scenarios ([32m15 passed[39m)
+90 steps ([32m90 passed[39m)
+3m21.30s (14.92Mb)

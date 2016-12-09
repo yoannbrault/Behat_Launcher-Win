@@ -1,0 +1,34 @@
+[1mFeature:[22m Header - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\header__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybrault[39;22m[32m"[39m    [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8Joko![39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario Outline:[22m Header - Joko [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\header__joko.feature:11[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m    [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT             [39;22m|
+      |[32m ACCUEIL          [39m|
+      |[32m AFRIQUE          [39m|
+      |[32m AMÉRIQUES        [39m|
+      |[32m ASIE             [39m|
+      |[32m EUROPE           [39m|
+      |[32m FRANCE           [39m|
+      |[32m MOYEN ORIENT     [39m|
+      |[32m ÉMISSIONS        [39m|
+      |[32m ÉCONOMIE         [39m|
+      |[32m SPORTS           [39m|
+      |[32m CULTURE          [39m|
+      |[32m MUSIQUE          [39m|
+      |[32m SCIENCE          [39m|
+      |[32m LANGUE FRANÇAISE [39m|
+      |[32m AFRIQUE FOOT     [39m|
+      |[32m RFI TECH         [39m|
+
+16 scenarios ([32m16 passed[39m)
+96 steps ([32m96 passed[39m)
+1m54.66s (14.92Mb)

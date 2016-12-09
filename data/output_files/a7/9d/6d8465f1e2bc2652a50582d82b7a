@@ -1,0 +1,614 @@
+[1mFeature:[22m Check the add page on F24
+
+  [1mScenario:[22m Check the Outbrain add page on F24                                                                   [30m# features\Add.feature:3[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=fr&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=fr&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=fr&context=home"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=fr&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=en&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=en&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=en&context=home"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=en&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Promoted stories"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=ar&context=home"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Recommended by"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=ar&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Recommended by"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=ar&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Recommended by"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=f24&lg=ar&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Recommended by"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+
+  [1mScenario:[22m Check the Outbrain add page on RFI                                                                   [30m# features\Add.feature:41[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=fr&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=fr&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=fr&context=home"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=fr&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=en&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=en&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=en&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=es&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Te recomendamos"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=es&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=es&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=pt&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=pt&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=pt&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=br&context=post_article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=br&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=rfi&lg=br&context=sidebar"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+
+  [1mScenario:[22m Check the Outbrain add page on Obs                                                                   [30m# features\Add.feature:91[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=obs&lg=fr&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=obs&lg=en&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "France 24"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+
+  [1mScenario:[22m Check the Outbrain add page on Mash                                                                     [30m# features\Add.feature:99[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/outbrain.php?brand=mashfr&lg=fr&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "Web"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+
+  [1mScenario:[22m Check the Advideum RFI                                                              [30m# features\Add.feature:104[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/rfi_advideum.php?context=section"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "France"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/rfi_advideum.php?context=article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/rfi_advideum.php?context=article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+
+  [1mScenario:[22m Check the Videostep RFI                                                             [30m# features\Add.feature:115[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/rfi_videostep.php?context=article_mobile"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen I should see "RFI"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+
+  [1mScenario:[22m Check the Digiteka F24/RFI                                                                           [30m# features\Add.feature:120[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/digiteka.php?brand=f24&lg=fr&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen the "body > div" element should contain "true"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/digiteka.php?brand=f24&lg=en&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen the "body > div" element should contain "true"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/digiteka.php?brand=rfi&lg=fr&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen the "body > div" element should contain "true"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mGiven I am on "http://stm-str.france24.com/dev/qa/digiteka.php?brand=rfi&lg=en&context=post_article_desktop"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mAnd I wait 2 seconds[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+    [31mThen the "body > div" element should contain "true"[39m
+[31m      Step "/^I am on "(.*)"$/" is already defined in FeatureContext::iAmOnWebsite()
+      
+      FeatureContext::iAmOnWebsite()
+      FeatureContext::iAmOnPage()[39m
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\Add.feature:3[39m
+    [31mfeatures\Add.feature:41[39m
+    [31mfeatures\Add.feature:91[39m
+    [31mfeatures\Add.feature:99[39m
+    [31mfeatures\Add.feature:104[39m
+    [31mfeatures\Add.feature:115[39m
+    [31mfeatures\Add.feature:120[39m
+
+7 scenarios ([31m7 failed[39m)
+117 steps ([31m117 failed[39m)
+0m0.11s (14.26Mb)

@@ -1,0 +1,15 @@
+[1mFeature:[22m Test
+
+  [1mScenario:[22m Perform a simple check on the France 24' menu              [30m# features/test.feature:3[39m
+    [32mGiven I am on "[39m[32;1mhttp://ppr.france24.com/fr[39;22m[32m"[39m                         [30m# FeatureContext::visit()[39m
+    [31mThen I follow "[39m[31;1mmain-player[39;22m[31m"[39m                                        [30m# FeatureContext::clickLink()[39m
+[31m      Link with id|title|alt|text "main-player" not found. (Behat\Mink\Exception\ElementNotFoundException)[39m
+    [36mThen the "[39m[36;1m#main-player-yt[39;22m[36m" element should contain "[39m[36;1mmain-player-yt[39;22m[36m"[39m [30m# FeatureContext::assertElementContains()[39m
+
+--- [31mScénarios échoués:[39m
+
+    [31mfeatures/test.feature:3[39m
+
+1 scénario ([31m1 échecs[39m)
+3 étapes ([32m1 succès[39m, [31m1 échecs[39m, [36m1 ignorés[39m)
+0m0.36s (13.91Mb)

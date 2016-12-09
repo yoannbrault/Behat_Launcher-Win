@@ -1,0 +1,9 @@
+
+[37;41m                                                                               [39;49m
+[37;41m  [Behat\Testwork\Tester\Exception\WrongPathsException]                        [39;49m
+[37;41m  No specifications found at path(s) `features/BO/france_24/bart/other__bart/  [39;49m
+[37;41m  affichage__bart/affichage_de_la_home__bart/menu_lateral__bart.feature`.      [39;49m
+[37;41m                                                                               [39;49m
+
+[32mbehat [-s|--suite SUITE] [-f|--format FORMAT] [-o|--out OUT] [--format-settings FORMAT-SETTINGS] [--init] [--lang LANG] [--name NAME] [--tags TAGS] [--role ROLE] [--story-syntax] [-d|--definitions DEFINITIONS] [--append-snippets] [--no-snippets] [--strict] [--order ORDER] [--rerun] [--stop-on-failure] [--dry-run] [--] [[39m[32m<paths>[39m[32m][39m
+

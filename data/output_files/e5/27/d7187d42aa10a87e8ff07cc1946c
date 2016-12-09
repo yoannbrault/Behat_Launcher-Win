@@ -1,0 +1,16 @@
+[1mFeature:[22m Affichage de la page des émissions - BART
+
+  [1mBackground:[22m                                            [30m# features\BO\bart\other__bart\menu__bart\affichage_de_la_page_des_emissions__bart.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybrault[39;22m[32m"[39m             [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8Bart![39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Affichage de la page des émissions - BART        [30m# features\BO\bart\other__bart\menu__bart\affichage_de_la_page_des_emissions__bart.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/emissions[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mThen I should see "[39m[32;1mPAR TITRE / PAR JOURNALISTE[39;22m[32m"[39m          [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scenario ([32m1 passed[39m)
+7 steps ([32m7 passed[39m)
+0m37.98s (14.77Mb)

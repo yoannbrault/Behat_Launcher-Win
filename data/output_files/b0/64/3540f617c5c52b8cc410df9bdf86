@@ -1,0 +1,19 @@
+
+[37;41m                                                                               [39;49m
+[37;41m  [WebDriver\Exception\CurlExec]                                               [39;49m
+[37;41m  Curl error thrown for http DELETE to http://127.0.0.1:4444/wd/hub/session/f  [39;49m
+[37;41m  0c408bd-07b1-471d-a16e-ec3545673f97/cookie                                   [39;49m
+[37;41m  Failed to connect to 127.0.0.1 port 4444: Connection refused                 [39;49m
+[37;41m                                                                               [39;49m
+
+[32mbehat [-s|--suite SUITE] [-f|--format FORMAT] [-o|--out OUT] [--format-settings FORMAT-SETTINGS] [--init] [--lang LANG] [--name NAME] [--tags TAGS] [--role ROLE] [--story-syntax] [-d|--definitions DEFINITIONS] [--append-snippets] [--no-snippets] [--strict] [--order ORDER] [--rerun] [--stop-on-failure] [--dry-run] [--] [[39m[32m<paths>[39m[32m][39m
+
+PHP Fatal error:  Uncaught exception 'WebDriver\Exception\CurlExec' with message 'Curl error thrown for http DELETE to http://127.0.0.1:4444/wd/hub/session/f0c408bd-07b1-471d-a16e-ec3545673f97
+
+Failed to connect to 127.0.0.1 port 4444: Connection refused' in C:\MAMP\htdocs\Launcher\vendor\instaclick\php-webdriver\lib\WebDriver\Exception.php:155
+Stack trace:
+#0 C:\MAMP\htdocs\Launcher\vendor\instaclick\php-webdriver\lib\WebDriver\Service\CurlService.php(103): WebDriver\Exception::factory(-1, 'Curl error thro...')
+#1 C:\MAMP\htdocs\Launcher\vendor\instaclick\php-webdriver\lib\WebDriver\AbstractWebDriver.php(123): WebDriver\Service\CurlService->execute('DELETE', 'http://127.0.0....', NULL, Array)
+#2 C:\MAMP\htdocs\Launcher\vendor\instaclick\php-webdriver\lib\WebDriver\Session.php(157): WebDriver\AbstractWebDriver->curl('DELETE', '')
+#3 C:\MAMP\htdocs\Launcher\vendor\behat\mink-selenium2-driver\src\Behat\Mink\Driver\Selenium2Driver.php(364): WebDriver\Session->close()
+#4 C:\MAMP\htdocs\Launcher\vendor\behat\mink\src\Session.php(78 in C:\MAMP\htdocs\Launcher\vendor\behat\mink-selenium2-driver\src\Behat\Mink\Driver\Selenium2Driver.php on line 366

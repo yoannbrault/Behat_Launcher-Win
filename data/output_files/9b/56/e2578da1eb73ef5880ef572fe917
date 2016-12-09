@@ -1,0 +1,124 @@
+[1mFeature:[22m Check all search field - MCD
+
+  [1mScenario Outline:[22m Check all search field - MCD         [30m# features\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:4[39m
+    [36mGiven I am on "[39m[36;1mhttp://pp.bart.france24.com/ar/user/[39;22m[36m"[39m [30m# FeatureContext::visit()[39m
+    [36mAnd I fill in "[39m[36;1medit-name[39;22m[36m" with "[39m[36;1m usertestboMCD[39;22m[36m"[39m      [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-pass[39;22m[36m" with "[39m[36;1mTest012*[39;22m[36m"[39m            [30m# FeatureContext::fillField()[39m
+    [36mAnd I press "[39m[36;1medit-submit[39;22m[36m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [36mThen I should see "[39m[36;1mMember for[39;22m[36m"[39m                       [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m                            [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                       [39;22m|
+      |[36m open/close                 [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928c318b00.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Rechercher                 [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928c8305e8.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Bookmarks                  [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928cd24e50.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m History                    [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928d1d8950.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m RSS Stories                [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928e0efe5c.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Fulltext Search            [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928e63cd20.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Title                      [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928eb64014.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Type of content            [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928efcc218.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Theme tags                 [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928f425620.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Emission                   [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928f8678b8.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Tag author                 [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928fcb9d20.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Node number (nid)          [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584929010db38.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m Created between two dates: [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849290541f28.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m To date                    [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849290a8bec0.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[36m From date                  [39m|
+[31m        The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849290eaf140.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:14[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:15[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:16[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:17[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:18[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:19[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:20[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:21[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:22[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:23[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:24[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:25[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:26[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:27[39m
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\check_all_search_field__mcd.feature:28[39m
+
+15 scenarios ([31m15 failed[39m)
+90 steps ([32m60 passed[39m, [31m15 failed[39m, [36m15 skipped[39m)
+1m48.52s (15.19Mb)

@@ -1,0 +1,28 @@
+[1mFeature:[22m Affichage d'une fiche pays - Joko
+
+  [1mScenario Outline:[22m Affichage d'une fiche pays - Joko [30m# features\BO\joko\other__joko\menu__joko\affichage_dune_fiche_pays__joko.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m                             [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m                        [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m URL                                                                                                          [39;22m|[36;1m TEXT           [39;22m|
+      |[32m http://pp.joko.rfi.fr/contenu/france-1-chronologie-dates-geographie-demographie-economie-chiffres            [39m|[32m France         [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/20091025-madagascar-chronologie-dates-geographie-demographie-economie-chiffres [39m|[32m Madagascar     [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/ouzbekistan                                                                    [39m|[32m Ouzbekistan    [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/bolivie-chronologie-dates-geographie-demographie-economie-chiffres             [39m|[32m Bolivie        [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/koweit-chronologie-dates-geographie-demographie-economie-chiffres              [39m|[32m Koweït         [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/yemen-chronologie-carte-geographie-demographie-economie-chiffres               [39m|[32m Yémen          [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/luxembourg-chronologie-dates-geographie-demographie-economie-chiffres          [39m|[32m Luxembourg     [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/royaume-uni-chronologie-dates-geographie-demographie-economie-chiffres         [39m|[32m Royaume-Uni    [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/turquie-chronologie-dates-geographie-demographie-economie-chiffres             [39m|[32m Turquie        [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/grece-chronologie-dates-geographie-demographie-economie-chiffres               [39m|[32m Grèce          [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/pologne-chronologie-dates-carte-geographie-demographie-economie-chiffres       [39m|[32m Pologne        [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/sud-soudan-chronologie-dates-carte-geographie-demographie-economie-chiffres    [39m|[32m Soudan du Sud  [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/iran-chronologie-dates-geographie-demographie-economie-chiffres                [39m|[32m Iran           [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/etats-unis-2-chronologie-dates-geographie-demographie-economie-chiffres        [39m|[32m Etats-Unis     [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/afrique-sud-chronologie-dates-geographie-demographie-economie-chiffres         [39m|[32m Afrique du Sud [39m|
+      |[32m http://pp.joko.rfi.fr/contenu/syrie-chronologie-dates-geographie-demographie-economie-chiffres               [39m|[32m Syrie          [39m|
+
+16 scenarios ([32m16 passed[39m)
+32 steps ([32m32 passed[39m)
+1m8.61s (14.78Mb)

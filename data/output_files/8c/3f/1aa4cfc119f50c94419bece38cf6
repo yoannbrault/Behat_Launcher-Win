@@ -1,0 +1,15 @@
+[1mFeature:[22m Check the priv F24
+
+  [1mScenario:[22m Check the priv F24                                                                   [30m# features/BS.feature:3[39m
+    [32mGiven I am on "[39m[32;1mhttp://www.france24.priv/fr/[39;22m[32m"[39m                                                 [30m# FeatureContext::visit()[39m
+    [31mThen I should see "[39m[31;1mEuro-2016 : vainqueur des Bleus, le Portugal est sacré champion d'Europe[39;22m[31m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+[31m      Element not found with xpath, //html
+       (WebDriver\Exception\NoSuchElement)[39m
+
+--- [31mScénarios échoués:[39m
+
+    [31mfeatures/BS.feature:3[39m
+
+1 scénario ([31m1 échecs[39m)
+2 étapes ([32m1 succès[39m, [31m1 échecs[39m)
+0m0.33s (14.05Mb)

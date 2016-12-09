@@ -1,0 +1,57 @@
+# Layout
+menu.project_list: 'Project list'
+menu.create: 'New run'
+menu.all_runs: 'All runs'
+footer: '<p>Developed by <a href="http://alexandre-salome.fr">Alexandre Salomé</a>, inspired by <a href="http://blablacar.com">BlaBlaCar</a>. Available on <a href="https://github.com/alexandresalome/behat-launcher">Github</a>.</p>'
+loading: "Loading"
+
+# Page titles
+title.project_list: "Project list"
+title.project_create: "New run for"
+title.run_list: "{count, select, 0{No run found} 1{Last run} other{Last {count} runs}}"
+
+# Buttons
+button.create_run: "Create a run"
+button.restart: "Restart"
+button.restart_failed: "Restart failed"
+button.restart_all: "Restart all"
+button.stop: "Stop"
+button.delete: "Delete"
+
+# Run
+run.no_title: 'no title'
+run_status.pending_since: 'pending since %since% ago'
+run_status.running_since: 'running since %since% ago'
+run_status.finished: 'finished %ago% ago (duration: %duration%)'
+
+# Run list
+run_list.no_run: "No run found."
+
+# Units list
+units_list.status: "Status"
+units_list.feature: "Feature"
+units_list.started_at: "Started at"
+units_list.duration: "Duration"
+units_list.output: "Output"
+units_list.actions: "Actions"
+
+# Form
+form.run.title: "Title"
+form.run.features: "Features"
+form.run.submit: "Create run"
+form.run.error.no_feature: "You must select at least one feature"
+
+# Status labels
+pending: 'pending'
+running: 'running'
+succeeded: 'succeeded'
+failed: 'failed'
+
+# Locale
+locale.en: "english"
+locale.fr: "french"
+
+# Date intervals
+interval.second: "{count, select, 0{} 1{1 second} other{{count} seconds}}"
+interval.minute: "{count, select, 0{} 1{1 minute} other{{count} minutes}}"
+interval.hour: "{count, select, 0{} 1{1 hour} other{{count} hours}}"

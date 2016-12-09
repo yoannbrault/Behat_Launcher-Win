@@ -1,0 +1,19 @@
+[1mFeature:[22m Footer - Joko
+
+  [1mScenario Outline:[22m Footer - Joko [30m# features\BO\rfi\joko\other__joko\menu__joko\affichage__joko\affichage_de_la_home__joko\footer__joko.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m         [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m    [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m URL                   [39;22m|[36;1m TEXT                                             [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Hermes Accueil 2 colonne de droite Autopromotion [39m|[32m             [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m EM hermes Header                                 [39m|[32m             [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Hermes Bloc Analyses reportages                  [39m|[32m             [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m EM Hermes carrousel Fil des emissions            [39m|[32m             [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m EM Hermes HP - Derniers Billets Blogs            [39m|[32m             [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Hermes Accueil 9 Grand angle                     [39m|[32m             [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m EM Hermes événements RFI                         [39m|[32m             [39m|
+
+7 scenarios ([32m7 passed[39m)
+14 steps ([32m14 passed[39m)
+0m50.92s (14.77Mb)

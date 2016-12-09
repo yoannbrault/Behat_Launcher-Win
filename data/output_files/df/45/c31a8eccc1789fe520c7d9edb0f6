@@ -1,0 +1,28 @@
+[1mFeature:[22m Header - MCD
+
+  [1mScenario Outline:[22m Header - MCD                    [30m# features\BO\mcd\other__mcd\affichage_de_la_home__mcd\header__mcd.feature:4[39m
+    [36mGiven I am on "[39m[36;1mhttp://pp.bart.france24.com/ar/[39;22m[36m"[39m [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m                      [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                [39;22m|
+      |[32m الرئيسية            [39m|
+      |[32m فرنسا               [39m|
+      |[32m الشرق الأوسط        [39m|
+      |[32m أفريقيا             [39m|
+      |[32m أوروبا              [39m|
+      |[32m أمريكا              [39m|
+      |[32m آسيا                [39m|
+      |[32m مجتمع               [39m|
+      |[32m اقتصاد              [39m|
+      |[32m رياضة               [39m|
+      |[32m ثقافة               [39m|
+      |[32m مراقبون             [39m|
+      |[32m تكنولوجيا           [39m|
+      |[32m التلفزيون الاجتماعي [39m|
+      |[32m مدونات              [39m|
+      |[32m ﻄﻘﺲ                 [39m|
+
+16 scenarios ([32m16 passed[39m)
+32 steps ([32m32 passed[39m)
+1m1.57s (14.78Mb)

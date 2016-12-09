@@ -1,0 +1,54 @@
+[1mFeature:[22m Menu latéral - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\rfi\joko\other__joko\menu__joko\affichage__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybrault[39;22m[32m"[39m    [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8Joko![39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario Outline:[22m Menu latéral - Joko [30m# features\BO\rfi\joko\other__joko\menu__joko\affichage__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:11[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m          [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                  [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m Administration rapide [39m|[32m             [39m|
+      |[32m Statuts               [39m|[32m             [39m|
+      |[32m Urgents               [39m|[32m             [39m|
+      |[32m Émission              [39m|[32m             [39m|
+      |[32m Blocs                 [39m|[32m             [39m|
+      |[32m Créer un contenu      [39m|[32m             [39m|
+      |[32m Article               [39m|[32m             [39m|
+      |[32m Edition               [39m|[32m             [39m|
+      |[32m Element multimedia    [39m|[32m             [39m|
+      |[32m Dossier               [39m|[32m             [39m|
+      |[32m Emission              [39m|[32m             [39m|
+      |[32m Fiche pays            [39m|[32m             [39m|
+      |[32m Image                 [39m|[32m             [39m|
+      |[32m Flux                  [39m|[32m             [39m|
+      |[32m Global profile        [39m|[32m             [39m|
+      |[32m Liens externes        [39m|[32m             [39m|
+      |[32m Page                  [39m|[32m             [39m|
+      |[32m Page composée         [39m|[32m             [39m|
+      |[32m Profil                [39m|[32m             [39m|
+      |[32m RSS Feed              [39m|[32m             [39m|
+      |[32m RSS Story             [39m|[32m             [39m|
+      |[32m Son                   [39m|[32m             [39m|
+      |[32m Story                 [39m|[32m             [39m|
+      |[32m Urgent                [39m|[32m             [39m|
+      |[32m Vidéo                 [39m|[32m             [39m|
+      |[32m Wire                  [39m|[32m             [39m|
+      |[32m Author tag metadata   [39m|[32m             [39m|
+      |[32m Diaporama Full Page   [39m|[32m             [39m|
+      |[32m Infographie           [39m|[32m             [39m|
+      |[32m Paramètres            [39m|[32m             [39m|
+      |[32m Timeline              [39m|[32m             [39m|
+      |[32m Mon compte            [39m|[32m             [39m|
+      |[32m Rechercher un contenu [39m|[32m             [39m|
+      |[32m Administrer           [39m|[32m             [39m|
+      |[32m Se déconnecter        [39m|[32m             [39m|
+      |[32m RFI News              [39m|[32m             [39m|
+
+36 scenarios ([32m36 passed[39m)
+216 steps ([32m216 passed[39m)
+4m45.02s (15.15Mb)

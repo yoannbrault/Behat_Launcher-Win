@@ -1,0 +1,45 @@
+{
+    "name": "alexandresalome/behat-launcher",
+    "description": "Launch Behat tests from your browser",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-0": {
+            "Alex\\BehatLauncher": "src"
+        }
+    },
+
+    "require": {
+        "php"                 :    ">=5.4",
+        "silex/silex"         :    "~1.1",
+        "silex/web-profiler"  :    "~1.0",
+        "symfony/console"     :    "~2.4",
+        "symfony/form"        :    "~2.4",
+        "symfony/intl"        :    "~2.4",
+        "symfony/translation" :    "~2.4",
+        "symfony/twig-bridge" :    "~2.4",
+        "symfony/validator"   :    "~2.4",
+        "symfony/process"     :    "~2.4",
+        "symfony/serializer"  :    "~2.4",
+        "twig/twig"           :    "~1.15",
+        "doctrine/dbal"       :    "~2.4",
+        "sensiolabs/ansi-to-html": "~1.0",
+        "symfony/security"    :    "~2.4",
+        "symfony/finder"      :    "~2.4",
+        "behat/mink"          :    "1.6.*@stable",
+        "behat/mink-extension":    "@stable",
+        "behat/mink-goutte-driver":"@stable",
+        "behat/mink-selenium2-driver":"@stable"
+    },
+
+    "require-dev": {
+        "behat/behat": "~3.1",
+        "phpunit/phpunit": "~3.7",
+        "facebook/webdriver": "~1.1.3",
+        "alom/journal-extension": "~0.2"
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    }
+}

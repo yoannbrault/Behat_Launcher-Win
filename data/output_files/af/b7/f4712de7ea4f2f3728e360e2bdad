@@ -1,0 +1,25 @@
+[1mFeature:[22m Top menu - MCD
+
+  [1mBackground:[22m                                            [30m# features\BO\mcd\other__mcd\affichage_de_la_home__mcd\top_menu__mcd.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/ar/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybraultmcd[39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8MCD![39;22m[32m"[39m           [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mMember for[39;22m[32m"[39m                       [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Top menu - MCD                          [30m# features\BO\mcd\other__mcd\affichage_de_la_home__mcd\top_menu__mcd.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/ar/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I should see "[39m[32;1mView[39;22m[32m"[39m                         [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mEdit[39;22m[32m"[39m                         [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mTrack[39;22m[32m"[39m                        [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mBlocks[39;22m[32m"[39m                       [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mFields[39;22m[32m"[39m                       [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mZones[39;22m[32m"[39m                        [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mClone[39;22m[32m"[39m                        [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mPreviewH[39;22m[32m"[39m                     [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mSee on front[39;22m[32m"[39m                 [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mResend to front[39;22m[32m"[39m              [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scenario ([32m1 passed[39m)
+16 steps ([32m16 passed[39m)
+0m58.38s (14.78Mb)

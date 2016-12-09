@@ -1,0 +1,48 @@
+[1mFeature:[22m Edition - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\joko\other__joko\crud__joko\edition__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m   [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Edition - Joko                                                                          [30m# features\BO\joko\other__joko\crud__joko\edition__joko.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/node/add/edition[39;22m[32m"[39m                                          [30m# FeatureContext::visit()[39m
+    [32mThen I should see "[39m[32;1mContent type : Edition[39;22m[32m"[39m                                                      [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I fill in "[39m[32;1medit-title[39;22m[32m" with "[39m[32;1mTITRE : Ceci est un test QA.[39;22m[32m"[39m                                  [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-field-edition-date-0-value-datepicker-popup-0[39;22m[32m" with "[39m[32;1m07/11/2016[39;22m[32m"[39m            [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-field-edition-partnumber-0-value[39;22m[32m" with "[39m[32;1m19[39;22m[32m"[39m                                 [30m# FeatureContext::fillField()[39m
+    [32mAnd I select "[39m[32;1mHebdo[39;22m[32m" from "[39m[32;1medit-taxonomy-3[39;22m[32m"[39m                                                     [30m# FeatureContext::selectOption()[39m
+    [32mAnd I fill in "[39m[32;1medit-taxonomy-9[39;22m[32m" with "[39m[32;1mReportage France[39;22m[32m"[39m                                         [30m# FeatureContext::fillField()[39m
+    [32mAnd I select "[39m[32;1m4[39;22m[32m" from "[39m[32;1medit-workflow-4[39;22m[32m"[39m                                                         [30m# FeatureContext::selectOption()[39m
+    [31mAnd I check "[39m[31;1medit-status[39;22m[31m"[39m                                                                       [30m# FeatureContext::checkOption()[39m
+[31m      Form field with id|name|label|value "edit-status" not found. (Behat\Mink\Exception\ElementNotFoundException)[39m
+    │
+    │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849283e29e64.png
+    │
+    └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+    [36mAnd I fill in "[39m[36;1medit-field-edition-sound-0-nid-nid[39;22m[36m" with "[39m[36;1m(TEST NE PAS UTILISER) [nid:963457][39;22m[36m"[39m   [30m# FeatureContext::fillField()[39m
+    [36mThen I press "[39m[36;1mEnregistrer[39;22m[36m"[39m                                                                      [30m# FeatureContext::pressButton()[39m
+    [36mAnd I wait "[39m[36;1m10[39;22m[36m" seconds[39m                                                                         [30m# FeatureContext::iWaitXSeconds()[39m
+    [36mThen I should see "[39m[36;1mLe contenu 'TITRE : Ceci est un test QA.', de type 'Edition', a été créé.[39;22m[36m"[39m   [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I follow "[39m[36;1mModifier[39;22m[36m"[39m                                                                         [30m# FeatureContext::clickLink()[39m
+    [36mAnd I fill in "[39m[36;1medit-title[39;22m[36m" with "[39m[36;1mEDIT : Ceci est un test QA.[39;22m[36m"[39m                                   [30m# FeatureContext::fillField()[39m
+    [36mAnd I press "[39m[36;1mEnregistrer[39;22m[36m"[39m                                                                       [30m# FeatureContext::pressButton()[39m
+    [36mAnd I wait "[39m[36;1m15[39;22m[36m" seconds[39m                                                                         [30m# FeatureContext::iWaitXSeconds()[39m
+    [36mThen I should see "[39m[36;1mhas no pending revision to be published.[39;22m[36m"[39m                                    [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I follow "[39m[36;1mModifier[39;22m[36m"[39m                                                                         [30m# FeatureContext::clickLink()[39m
+    [36mAnd I wait "[39m[36;1m15[39;22m[36m" seconds[39m                                                                         [30m# FeatureContext::iWaitXSeconds()[39m
+    [36mThen I press "[39m[36;1mSupprimer toutes les révisions[39;22m[36m"[39m                                                   [30m# FeatureContext::pressButton()[39m
+    [36mAnd I wait "[39m[36;1m5[39;22m[36m" seconds[39m                                                                          [30m# FeatureContext::iWaitXSeconds()[39m
+    [36mAnd I should see "[39m[36;1mCette action est irréversible.[39;22m[36m"[39m                                               [30m# FeatureContext::assertPageContainsText()[39m
+    [36mThen I press "[39m[36;1mSupprimer[39;22m[36m"[39m                                                                        [30m# FeatureContext::pressButton()[39m
+    [36mAnd I should see "[39m[36;1mLe contenu 'EDIT : Ceci est un test QA.', de type 'Edition', a été supprimé.[39;22m[36m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\joko\other__joko\crud__joko\edition__joko.feature:11[39m
+
+1 scenario ([31m1 failed[39m)
+30 steps ([32m13 passed[39m, [31m1 failed[39m, [36m16 skipped[39m)
+0m37.33s (14.84Mb)

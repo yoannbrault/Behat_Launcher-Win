@@ -1,0 +1,9 @@
+[1mFeature:[22m Check the priv F24
+
+  [1mScenario:[22m Check the priv F24                                                      [30m# features/BS.feature:3[39m
+    [32mGiven I am on "[39m[32;1m/fr/[39;22m[32m"[39m                                                            [30m# FeatureContext::visit()[39m
+    [32mThen I should see "[39m[32;1mParis et Berlin vent debout contre les messageries cryptées[39;22m[32m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scénario ([32m1 succès[39m)
+2 étapes ([32m2 succès[39m)
+0m13.77s (13.00Mb)

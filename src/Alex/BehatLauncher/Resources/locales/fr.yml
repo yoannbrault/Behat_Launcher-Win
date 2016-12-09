@@ -1,0 +1,57 @@
+# Layout
+menu.project_list: 'Liste des projets'
+menu.create: 'Nouveau run'
+menu.all_runs: 'Tous les runs'
+footer: '<p>Développé par <a href="http://alexandre-salome.fr">Alexandre Salomé</a>, inspiré par <a href="http://blablacar.com">BlaBlaCar</a>. Disponible sur <a href="https://github.com/alexandresalome/behat-launcher">Github</a>.</p>'
+loading: "Chargement"
+
+# Titles
+title.project_list: "Liste des projets"
+title.project_create: "Nouveau run pour"
+title.run_list: "{count, select, 0{Aucun run trouvé} 1{Dernier run} other{Derniers {count} runs}}"
+
+# Buttons
+button.create_run: "Créer un run"
+button.restart: "Redémarrer"
+button.restart_failed: "Redémarrer les échoués"
+button.restart_all: "Tout redémarrer"
+button.stop: "Arrêter"
+button.delete: "Supprimer"
+
+# Run
+run.no_title: 'aucun titre'
+run_status.pending_since: 'en attente depuis %since%'
+run_status.running_since: 'en cours depuis %since%'
+run_status.finished: 'fini il y a %ago% (durée: %duration%)'
+
+# Run list
+run_list.no_run: "Aucun run trouvé."
+
+# Units list
+units_list.status: "Statut"
+units_list.feature: "Feature"
+units_list.started_at: "Démarré à"
+units_list.duration: "Durée"
+units_list.output: "Sortie"
+units_list.actions: "Actions"
+
+# Form
+form.run.title: "Titre"
+form.run.features: "Features"
+form.run.submit: "Créer un run"
+form.run.error.no_feature: "Vous devez sélectionner au moins une feature"
+
+# Status labels
+pending: 'en attente'
+running: 'en cours'
+succeeded: 'réussi'
+failed: 'échoué'
+
+# Locale
+locale.en: "anglais"
+locale.fr: "français"
+
+# Date interval
+interval.second: "{count, select, 0{} 1{1 seconde} other{{count} secondes}}"
+interval.minute: "{count, select, 0{} 1{1 minute} other{{count} minutes}}"
+interval.hour: "{count, select, 0{} 1{1 heure} other{{count} heures}}"

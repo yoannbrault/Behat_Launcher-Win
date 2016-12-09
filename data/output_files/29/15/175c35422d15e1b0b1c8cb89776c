@@ -1,0 +1,15 @@
+[1mFeature:[22m New Password - Joko
+
+  [1mScenario Outline:[22m New Password - Joko [30m# features\BO\rfi\joko\login__joko\new_password__joko.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m               [30m# FeatureContext::visit()[39m
+    [36mAnd I follow "[39m[36;1m<BUTTON>[39;22m[36m"[39m             [30m# FeatureContext::clickLink()[39m
+    [36mAnd I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+    [36mThen I should see "[39m[36;1m<VALID>[39;22m[36m"[39m         [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m URL                         [39;22m|[36;1m TEXT                                   [39;22m|[36;1m BUTTON                           [39;22m|[36;1m VALID                                  [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m http://pp.joko.rfi.fr/user/ [39m|[32m Nom d'utilisateur ou adresse e-mail. : [39m|[32m Demander un nouveau mot de passe [39m|[32m Nom d'utilisateur ou adresse e-mail. : [39m|[32m             [39m|
+
+1 scenario ([32m1 passed[39m)
+4 steps ([32m4 passed[39m)
+0m15.48s (14.84Mb)

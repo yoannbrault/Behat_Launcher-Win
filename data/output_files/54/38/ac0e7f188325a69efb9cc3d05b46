@@ -1,0 +1,9 @@
+[1mFeature:[22m Langues - Joko
+
+  [1mScenario:[22m Langue - Joko                                                    [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\langues__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/[39;22m[32m"[39m                                   [30m# FeatureContext::visit()[39m
+    [32mAnd the "[39m[32;1m#block-block-79 > div > img[39;22m[32m" should contain "[39m[32;1mchoix des langues[39;22m[32m"[39m [30m# FeatureContext::theSelectorShouldContainDatasets()[39m
+
+1 scenario ([32m1 passed[39m)
+2 steps ([32m2 passed[39m)
+0m11.01s (14.47Mb)

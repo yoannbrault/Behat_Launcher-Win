@@ -1,0 +1,17 @@
+[1mFeature:[22m Footer - Bart
+
+  [1mScenario Outline:[22m Footer     [30m# features\BO\bart\other__bart\affichage_de_la_home__bart\footer__bart.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m      [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT            [39;22m|[36;1m URL                             [39;22m|
+      |[32m ACTUALITÉ       [39m|[32m http://pp.bart.france24.com/fr/ [39m|
+      |[32m LA CHAÎNE       [39m|[32m http://pp.bart.france24.com/fr/ [39m|
+      |[32m ALLER PLUS LOIN [39m|[32m http://pp.bart.france24.com/fr/ [39m|
+      |[32m COMMUNAUTÉS     [39m|[32m http://pp.bart.france24.com/fr/ [39m|
+      |[32m FRANCE 24       [39m|[32m http://pp.bart.france24.com/fr/ [39m|
+
+5 scenarios ([32m5 passed[39m)
+10 steps ([32m10 passed[39m)
+1m12.43s (14.77Mb)

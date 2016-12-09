@@ -1,0 +1,39 @@
+[1mFeature:[22m Regarder France24 - Bart
+
+  [1mScenario Outline:[22m Regarder France24 [30m# features\BO\france_24\bart\other__bart\affichage__bart\affichage_de_la_home__bart\regarder_france24__bart.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m             [30m# FeatureContext::visit()[39m
+    [36mAnd I follow "[39m[36;1m<BUTTON>[39;22m[36m"[39m           [30m# FeatureContext::clickLink()[39m
+    [36mAnd I wait "[39m[36;1m5[39;22m[36m" seconds[39m            [30m# FeatureContext::iWaitXSeconds()[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m        [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m URL                             [39;22m|[36;1m BUTTON     [39;22m|[36;1m TEXT                               [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m http://pp.bart.france24.com/fr/ [39m|[32m DIRECT     [39m|[32m En ce moment                       [39m|[32m             [39m|
+      |[32m http://pp.bart.france24.com/fr/ [39m|[32m DERNIER JT [39m|[31m Regarder le dernier JT             [39m|[32m             [39m|
+[31m        The text "Regarder le dernier JT" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5821e80535be8.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m http://pp.bart.france24.com/fr/ [39m|[32m JT ECO     [39m|[31m Regarder le dernier JT éco         [39m|[32m             [39m|
+[31m        The text "Regarder le dernier JT éco" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5821e80bed93f.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m http://pp.bart.france24.com/fr/ [39m|[31m METEO      [39m|[36m Regarder le dernier bulletin météo [39m|[32m             [39m|
+[31m        Link with id|title|alt|text "METEO" not found. (Behat\Mink\Exception\ElementNotFoundException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5821e80f2a824.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\france_24\bart\other__bart\affichage__bart\affichage_de_la_home__bart\regarder_france24__bart.feature:13[39m
+    [31mfeatures\BO\france_24\bart\other__bart\affichage__bart\affichage_de_la_home__bart\regarder_france24__bart.feature:14[39m
+    [31mfeatures\BO\france_24\bart\other__bart\affichage__bart\affichage_de_la_home__bart\regarder_france24__bart.feature:15[39m
+
+4 scenarios ([32m1 passed[39m, [31m3 failed[39m)
+16 steps ([32m11 passed[39m, [31m3 failed[39m, [36m2 skipped[39m)
+0m46.05s (14.91Mb)

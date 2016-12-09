@@ -1,0 +1,16 @@
+[1mFeature:[22m Affichage de la page d'une édition - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\joko\other__joko\menu__joko\affichage_de_la_page_dune_edition__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybrault[39;22m[32m"[39m    [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8Joko![39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Affichage de la page d'une édition - Joko                                          [30m# features\BO\joko\other__joko\menu__joko\affichage_de_la_page_dune_edition__joko.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/emission/20161102-alain-juppe-affiche-france-humour[39;22m[32m"[39m  [30m# FeatureContext::visit()[39m
+    [32mThen I should see "[39m[32;1mC’est une affiche électorale, une affiche de « winner », de vainqueur.[39;22m[32m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scenario ([32m1 passed[39m)
+7 steps ([32m7 passed[39m)
+0m18.67s (14.77Mb)

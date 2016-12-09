@@ -1,0 +1,39 @@
+[1mFeature:[22m Breaking  - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\rfi\joko\other__joko\menu__joko\crud\breaking__joko.feature:4[39m
+    [31mGiven I am on "[39m[31;1mhttp://pp.joko.rfi.fr/user/[39;22m[31m"[39m [30m# FeatureContext::visit()[39m
+[31m      Could not open connection: Curl error thrown for http POST to http://127.0.0.1:4444/wd/hub/session with params: {"desiredCapabilities":{"tags":["WSB-16836","PHP 5.6.27"],"browser":"firefox","ignoreZoomSetting":false,"name":"Behat feature suite","browserName":"firefox"}}
+      
+      Failed to connect to 127.0.0.1 port 4444: Connection refused (Behat\Mink\Exception\DriverException)[39m
+    │
+    ╳  [31mCould not open connection: Curl error thrown for http POST to http://127.0.0.1:4444/wd/hub/session with params: {"desiredCapabilities":{"tags":["WSB-16836","PHP 5.6.27"],"browser":"firefox","ignoreZoomSetting":false,"name":"Behat feature suite","browserName":"firefox"}}[39m
+    ╳  [31m[39m
+    ╳  [31mFailed to connect to 127.0.0.1 port 4444: Connection refused (Behat\Mink\Exception\DriverException)[39m
+    │
+    └─ [31m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+    [36mAnd I fill in "[39m[36;1medit-name[39;22m[36m" with "[39m[36;1mybrault[39;22m[36m"[39m    [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-pass[39;22m[36m" with "[39m[36;1mTest8Joko![39;22m[36m"[39m [30m# FeatureContext::fillField()[39m
+    [36mAnd I press "[39m[36;1medit-submit[39;22m[36m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [36mThen I should see "[39m[36;1mmembre depuis[39;22m[36m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Urgent - Joko                                                                                         [30m# features\BO\rfi\joko\other__joko\menu__joko\crud\breaking__joko.feature:11[39m
+    [36mGiven I am on "[39m[36;1mhttp://pp.joko.rfi.fr/node/add/urgent[39;22m[36m"[39m                                                         [30m# FeatureContext::visit()[39m
+    [36mAnd I should see "[39m[36;1mContent type : Urgent[39;22m[36m"[39m                                                                      [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I fill in "[39m[36;1medit-title[39;22m[36m" with "[39m[36;1mTitre : Ceci est un URGENT RFI test[39;22m[36m"[39m                                         [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-field-urgent-text-0-value[39;22m[36m" with "[39m[36;1mCorps du breaking : Ceci est un URGENT RFI test[39;22m[36m"[39m         [30m# FeatureContext::fillField()[39m
+    [36mAnd I press "[39m[36;1mEnregistrer[39;22m[36m"[39m                                                                                     [30m# FeatureContext::pressButton()[39m
+    [36mThen I should see "[39m[36;1mLe contenu 'Titre : Ceci est un URGENT RFI test', de type 'Urgent', a été créé.[39;22m[36m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I follow "[39m[36;1mModifier[39;22m[36m"[39m                                                                                       [30m# FeatureContext::clickLink()[39m
+    [36mAnd I should see "[39m[36;1mCe document est maintenant verrouillé et ne peut pas être édité par un autre contributeur.[39;22m[36m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I press "[39m[36;1mSupprimer[39;22m[36m"[39m                                                                                       [30m# FeatureContext::pressButton()[39m
+    [36mAnd I should see "[39m[36;1mCette action est irréversible.[39;22m[36m"[39m                                                             [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I press "[39m[36;1mSupprimer[39;22m[36m"[39m                                                                                       [30m# FeatureContext::pressButton()[39m
+    [36mThen I should see "[39m[36;1mLe contenu 'Titre : Ceci est un URGENT RFI test', de type 'Urgent', a été supprimé.[39;22m[36m"[39m       [30m# FeatureContext::assertPageContainsText()[39m
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\rfi\joko\other__joko\menu__joko\crud\breaking__joko.feature:11[39m
+
+1 scenario ([31m1 failed[39m)
+17 steps ([31m1 failed[39m, [36m16 skipped[39m)
+0m2.68s (14.51Mb)

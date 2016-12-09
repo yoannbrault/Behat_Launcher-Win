@@ -1,0 +1,16 @@
+[1mFeature:[22m Affichage de la page d'une édition - MCD
+
+  [1mBackground:[22m                                            [30m# features\BO\mcd\other__mcd\menu__mcd\affichage_de_la_page_dune_edition__mcd.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/ar/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybraultmcd[39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8MCD![39;22m[32m"[39m           [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mMember for[39;22m[32m"[39m                       [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Affichage de la page d'une édition - MCD                                                                                                                                                                                                                                                                                                                            [30m# features\BO\mcd\other__mcd\menu__mcd\affichage_de_la_page_dune_edition__mcd.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/ar/20161108-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D9%86%D8%AA%D8%B8%D8%B1-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mThen I should see "[39m[32;1mماذا ينتظر العرب من الرئيس الأميركي الجديد؟[39;22m[32m"[39m                                                                                                                                                                                                                                                                                                             [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scenario ([32m1 passed[39m)
+7 steps ([32m7 passed[39m)
+0m39.62s (14.77Mb)

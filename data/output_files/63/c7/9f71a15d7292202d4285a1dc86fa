@@ -1,0 +1,19 @@
+[1mFeature:[22m Log out - BART
+
+  [1mScenario Outline:[22m Log out - Bart               [30m# features\BO\france_24\bart\login__bart\log_out__bart.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m                        [30m# FeatureContext::visit()[39m
+    [36mAnd I fill in "[39m[36;1m<ID_FIELD>[39;22m[36m" with "[39m[36;1m<USERNAME>[39;22m[36m"[39m [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1m<PW_FIELD>[39;22m[36m" with "[39m[36;1m<PASSWORD>[39;22m[36m"[39m [30m# FeatureContext::fillField()[39m
+    [36mAnd I press "[39m[36;1m<BUTTON>[39;22m[36m"[39m                       [30m# FeatureContext::pressButton()[39m
+    [36mAnd I should see "[39m[36;1m<MESSAGE>[39;22m[36m"[39m                 [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I follow "[39m[36;1m<TEXT>[39;22m[36m"[39m                        [30m# FeatureContext::clickLink()[39m
+    [36mAnd I follow "[39m[36;1m<LOGOUT>[39;22m[36m"[39m                      [30m# FeatureContext::clickLink()[39m
+    [36mThen I should see "[39m[36;1m<CONFIRM>[39;22m[36m"[39m                [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m URL                                  [39;22m|[36;1m ID_FIELD  [39;22m|[36;1m USERNAME [39;22m|[36;1m PW_FIELD  [39;22m|[36;1m PASSWORD   [39;22m|[36;1m BUTTON      [39;22m|[36;1m MESSAGE       [39;22m|[36;1m LOGOUT         [39;22m|[36;1m CONFIRM      [39;22m|[36;1m TEXT       [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m http://pp.bart.france24.com/fr/user/ [39m|[32m edit-name [39m|[32m ybrault  [39m|[32m edit-pass [39m|[32m Test8Bart! [39m|[32m edit-submit [39m|[32m Membre depuis [39m|[32m Se déconnecter [39m|[32m Se connecter [39m|[32m open/close [39m|[32m             [39m|
+
+1 scenario ([32m1 passed[39m)
+8 steps ([32m8 passed[39m)
+0m18.43s (14.84Mb)

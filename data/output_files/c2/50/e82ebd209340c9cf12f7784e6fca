@@ -1,0 +1,42 @@
+[1mFeature:[22m Edition - BART
+
+  [1mBackground:[22m                                            [30m# features\BO\france_24\bart\other__bart\crud__bart\edition__bart.feature:4[39m
+    [31mGiven I am on "[39m[31;1mhttp://pp.bart.france24.com/fr/user/[39;22m[31m"[39m [30m# FeatureContext::visit()[39m
+[31m      Could not open connection: Curl error thrown for http POST to http://127.0.0.1:4444/wd/hub/session with params: {"desiredCapabilities":{"tags":["WSB-16836","PHP 5.6.27"],"browser":"firefox","ignoreZoomSetting":false,"name":"Behat feature suite","browserName":"firefox"}}
+      
+      Failed to connect to 127.0.0.1 port 4444: Connection refused (Behat\Mink\Exception\DriverException)[39m
+    │
+    ╳  [31mCould not open connection: Curl error thrown for http POST to http://127.0.0.1:4444/wd/hub/session with params: {"desiredCapabilities":{"tags":["WSB-16836","PHP 5.6.27"],"browser":"firefox","ignoreZoomSetting":false,"name":"Behat feature suite","browserName":"firefox"}}[39m
+    ╳  [31m[39m
+    ╳  [31mFailed to connect to 127.0.0.1 port 4444: Connection refused (Behat\Mink\Exception\DriverException)[39m
+    │
+    └─ [31m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+    [36mAnd I fill in "[39m[36;1medit-name[39;22m[36m" with "[39m[36;1mybrault[39;22m[36m"[39m             [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-pass[39;22m[36m" with "[39m[36;1mTest8Bart![39;22m[36m"[39m          [30m# FeatureContext::fillField()[39m
+    [36mAnd I press "[39m[36;1medit-submit[39;22m[36m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [36mThen I should see "[39m[36;1mmembre depuis[39;22m[36m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario Outline:[22m Create Edition - BART                                                        [30m# features\BO\france_24\bart\other__bart\crud__bart\edition__bart.feature:11[39m
+    [36mGiven I am on "[39m[36;1mhttp://pp.bart.france24.com/fr/node/add/edition[39;22m[36m"[39m                              [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1mContent type : Edition[39;22m[36m"[39m                                                   [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I fill in "[39m[36;1medit-field-edition-introduction-0-value[39;22m[36m" with "[39m[36;1mIntro : Ceci est un test QA.[39;22m[36m"[39m  [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-title[39;22m[36m" with "[39m[36;1mTitre : Ceci est un test QA.[39;22m[36m"[39m                               [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-field-edition-surtitle-0-value[39;22m[36m" with "[39m[36;1mSur titre  : Ceci est un test QA.[39;22m[36m"[39m [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-taxonomy-tags-37[39;22m[36m" with "[39m[36;1mEMISSION : Ceci est un test QA.[39;22m[36m"[39m                 [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1medit-taxonomy-tags-7[39;22m[36m" with "[39m[36;1mFrance[39;22m[36m"[39m                                           [30m# FeatureContext::fillField()[39m
+    [36mAnd I check "[39m[36;1medit-status[39;22m[36m"[39m                                                                    [30m# FeatureContext::checkOption()[39m
+    [36mThen I press "[39m[36;1mEnregistrer[39;22m[36m"[39m                                                                   [30m# FeatureContext::pressButton()[39m
+    [36mAnd I wait "[39m[36;1m10[39;22m[36m" seconds[39m                                                                      [30m# FeatureContext::iWaitXSeconds()[39m
+    [36mThen I should see "[39m[36;1mMain image field is required.[39;22m[36m"[39m                                            [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m CONFIRM                        [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m Cette action est irréversible. [39m|[32m             [39m|
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\france_24\bart\other__bart\crud__bart\edition__bart.feature:26[39m
+
+1 scenario ([31m1 failed[39m)
+16 steps ([31m1 failed[39m, [36m15 skipped[39m)
+0m2.86s (14.65Mb)

@@ -1,0 +1,35 @@
+[1mFeature:[22m Header - Bart
+
+  [1mBackground:[22m                                            [30m# features\BO\bart\other__bart\affichage_de_la_home__bart\header__bart.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m            [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario Outline:[22m Header     [30m# features\BO\bart\other__bart\affichage_de_la_home__bart\header__bart.feature:11[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT           [39;22m|
+      |[32m À LA UNE       [39m|
+      |[32m FRANCE         [39m|
+      |[32m AFRIQUE        [39m|
+      |[32m MOYEN-ORIENT   [39m|
+      |[32m EUROPE         [39m|
+      |[32m AMÉRIQUES      [39m|
+      |[32m ASIE-PACIFIQUE [39m|
+      |[32m PLANETE        [39m|
+      |[32m ÉCO / TECH     [39m|
+      |[32m SPORTS         [39m|
+      |[32m CULTURE        [39m|
+      |[32m OPINIONS       [39m|
+      |[32m REPORTAGES     [39m|
+      |[32m ÉMISSIONS      [39m|
+      |[32m SOCIAL TV      [39m|
+      |[32m BLOGS          [39m|
+      |[32m VOYAGES        [39m|
+
+17 scenarios ([32m17 passed[39m)
+102 steps ([32m102 passed[39m)
+7m23.89s (14.92Mb)

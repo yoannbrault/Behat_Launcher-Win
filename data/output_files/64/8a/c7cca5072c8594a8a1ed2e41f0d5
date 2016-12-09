@@ -1,0 +1,21 @@
+[1mFeature:[22m Affichage d'un billet de blog - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\joko\other__joko\menu__joko\affichage_dun_billet_de_blog__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1m Test012*[39;22m[32m"[39m  [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Affichage d'un billet de blog - Joko                                                                                                                               [30m# features\BO\joko\other__joko\menu__joko\affichage_dun_billet_de_blog__joko.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/blogs[39;22m[32m"[39m                                                                                                                                [30m# FeatureContext::visit()[39m
+    [32mThen I should see "[39m[32;1mEncres de Chine[39;22m[32m"[39m                                                                                                                                        [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I follow "[39m[32;1mEncres de Chine[39;22m[32m"[39m                                                                                                                                             [30m# FeatureContext::clickLink()[39m
+    [32mThen switch to current window[39m                                                                                                                                              [30m# FeatureContext::switchToCurrentWindow()[39m
+    [32mAnd I wait "[39m[32;1m5[39;22m[32m" seconds[39m                                                                                                                                                     [30m# FeatureContext::iWaitXSeconds()[39m
+    [32mAnd I should be on "[39m[32;1mhttp://chine.blogs.rfi.fr/[39;22m[32m"[39m                                                                                                                            [30m# FeatureContext::assertPageAddress()[39m
+    [32mAnd I should see "[39m[32;1mEva Joly, Renaud Van Ruymbeke et autres noms célèbres de la magistrature en France rêveraient de disposer d'un tel budget pour combattre les injustices[39;22m[32m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scenario ([32m1 passed[39m)
+12 steps ([32m12 passed[39m)
+0m35.15s (14.76Mb)

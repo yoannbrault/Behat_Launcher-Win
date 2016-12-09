@@ -1,0 +1,37 @@
+[1mFeature:[22m Emission - BART
+
+  [1mBackground:[22m                                            [30m# features\BO\bart\other__bart\crud__bart\emission__bart.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m            [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Emission - Bart                                                        [30m# features\BO\bart\other__bart\crud__bart\emission__bart.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/node/add/emission[39;22m[32m"[39m               [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-title[39;22m[32m" with "[39m[32;1mTitre Emission - Test QA[39;22m[32m"[39m                     [30m# FeatureContext::fillField()[39m
+    [32mAnd I check "[39m[32;1medit-status[39;22m[32m"[39m                                                      [30m# FeatureContext::checkOption()[39m
+    [32mAnd I press "[39m[32;1mEnregistrer[39;22m[32m"[39m                                                      [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mEmission Titre Emission - Test QA has been created.[39;22m[32m"[39m        [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I wait "[39m[32;1m5[39;22m[32m" seconds[39m                                                         [30m# FeatureContext::iWaitXSeconds()[39m
+    [32mAnd I follow "[39m[32;1mÉditer[39;22m[32m"[39m                                                          [30m# FeatureContext::clickLink()[39m
+    [32mAnd I fill in "[39m[32;1medit-title[39;22m[32m" with "[39m[32;1mTitre Emission - Test QA - EDIT[39;22m[32m"[39m              [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1mEnregistrer[39;22m[32m"[39m                                                      [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mEmission Titre Emission - Test QA - EDIT has been updated.[39;22m[32m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I follow "[39m[32;1mÉditer[39;22m[32m"[39m                                                          [30m# FeatureContext::clickLink()[39m
+    [31mAnd I press "[39m[31;1mSupprimer[39;22m[31m"[39m                                                        [30m# FeatureContext::pressButton()[39m
+[31m      Button with id|name|title|alt|value "Supprimer" not found. (Behat\Mink\Exception\ElementNotFoundException)[39m
+    │
+    │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_58492748b0c98.png
+    │
+    └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+    [36mAnd I should see "[39m[36;1mCette action est irréversible.[39;22m[36m"[39m                              [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I press "[39m[36;1mSupprimer[39;22m[36m"[39m                                                        [30m# FeatureContext::pressButton()[39m
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\bart\other__bart\crud__bart\emission__bart.feature:11[39m
+
+1 scenario ([31m1 failed[39m)
+19 steps ([32m16 passed[39m, [31m1 failed[39m, [36m2 skipped[39m)
+2m32.79s (14.84Mb)

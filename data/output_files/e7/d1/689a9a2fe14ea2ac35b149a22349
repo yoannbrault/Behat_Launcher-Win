@@ -1,0 +1,10 @@
+[1mFeature:[22m New Password - BART
+
+  [1mScenario:[22m New Password - BART                               [30m# features\BO\bart\login__bart\new_password__bart.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/user[39;22m[32m"[39m       [30m# FeatureContext::visit()[39m
+    [32mAnd I follow "[39m[32;1mDemander un nouveau mot de passe[39;22m[32m"[39m           [30m# FeatureContext::clickLink()[39m
+    [32mAnd I should see "[39m[32;1mNom d'utilisateur ou adresse e-mail. :[39;22m[32m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scenario ([32m1 passed[39m)
+3 steps ([32m3 passed[39m)
+0m17.69s (14.70Mb)

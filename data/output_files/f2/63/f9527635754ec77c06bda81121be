@@ -1,0 +1,16 @@
+[1mFeature:[22m Footer - MCD
+
+  [1mScenario Outline:[22m Footer - MCD [30m# features\BO\mcd\other__mcd\affichage_de_la_home__mcd\footer__mcd.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m        [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m   [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT           [39;22m|[36;1m URL                             [39;22m|
+      |[32m الأخبار        [39m|[32m http://pp.bart.france24.com/ar/ [39m|
+      |[32m القناة         [39m|[32m http://pp.bart.france24.com/ar/ [39m|
+      |[32m تابعونا على... [39m|[32m http://pp.bart.france24.com/ar/ [39m|
+      |[32m خدمات          [39m|[32m http://pp.bart.france24.com/ar/ [39m|
+
+4 scenarios ([32m4 passed[39m)
+8 steps ([32m8 passed[39m)
+0m29.31s (14.77Mb)

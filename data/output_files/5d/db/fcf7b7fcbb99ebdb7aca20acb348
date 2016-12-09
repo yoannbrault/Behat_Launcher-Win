@@ -1,0 +1,21 @@
+[1mFeature:[22m Log in - MCD
+
+  [1mScenario Outline:[22m Log in - MCD                 [30m# features\BO\mcd\login__mcd\log_in__mcd.feature:4[39m
+    [36mGiven I am on "[39m[36;1m<URL>[39;22m[36m"[39m                        [30m# FeatureContext::visit()[39m
+    [36mAnd I fill in "[39m[36;1m<ID_FIELD>[39;22m[36m" with "[39m[36;1m<USERNAME>[39;22m[36m"[39m [30m# FeatureContext::fillField()[39m
+    [36mAnd I fill in "[39m[36;1m<PW_FIELD>[39;22m[36m" with "[39m[36;1m<PASSWORD>[39;22m[36m"[39m [30m# FeatureContext::fillField()[39m
+    [36mAnd I press "[39m[36;1m<BUTTON>[39;22m[36m"[39m                       [30m# FeatureContext::pressButton()[39m
+    [36mAnd I wait "[39m[36;1m5[39;22m[36m" seconds[39m                       [30m# FeatureContext::iWaitXSeconds()[39m
+    [36mThen I should see "[39m[36;1m<MESSAGE>[39;22m[36m"[39m                [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m URL                                 [39;22m|[36;1m ID_FIELD  [39;22m|[36;1m USERNAME      [39;22m|[36;1m PW_FIELD  [39;22m|[36;1m PASSWORD [39;22m|[36;1m BUTTON      [39;22m|[36;1m MESSAGE                                   [39;22m|
+      |[32m http://pp.bart.france24.com/ar/user [39m|[32m edit-name [39m|[32m               [39m|[32m edit-pass [39m|[32m Test012* [39m|[32m edit-submit [39m|[32m ضروري.                                    [39m|
+      |[32m http://pp.bart.france24.com/ar/user [39m|[32m edit-name [39m|[32m trsfdbrault   [39m|[32m edit-pass [39m|[32m Test012* [39m|[32m edit-submit [39m|[32m Sorry, unrecognized username or password. [39m|
+      |[32m http://pp.bart.france24.com/ar/user [39m|[32m edit-name [39m|[32m usertestboMCD [39m|[32m edit-pass [39m|[32m          [39m|[32m edit-submit [39m|[32m ضروري.                                    [39m|
+      |[32m http://pp.bart.france24.com/ar/user [39m|[32m edit-name [39m|[32m usertestboMCD [39m|[32m edit-pass [39m|[32m Test     [39m|[32m edit-submit [39m|[32m Sorry, unrecognized username or password. [39m|
+      |[32m http://pp.bart.france24.com/ar/user [39m|[32m edit-name [39m|[32m usertestboMCD [39m|[32m edit-pass [39m|[32m Test012* [39m|[32m edit-submit [39m|[32m Member for                                [39m|
+
+5 scenarios ([32m5 passed[39m)
+30 steps ([32m30 passed[39m)
+0m32.23s (14.86Mb)

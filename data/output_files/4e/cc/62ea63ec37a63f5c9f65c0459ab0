@@ -1,0 +1,27 @@
+[1mFeature:[22m Affichage de la page des émissions - MCD
+
+  [1mBackground:[22m                                            [30m# features\BO\mcd\other__mcd\menu__mcd\affichage_de_la_page_des_emissions__mcd.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/ar/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1m usertestbomcd[39;22m[32m"[39m      [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m            [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [31mThen I should see "[39m[31;1mMember for[39;22m[31m"[39m                       [30m# FeatureContext::assertPageContainsText()[39m
+[31m      The text "Member for" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+    │
+    │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849288802788.png
+    │
+    └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+
+  [1mScenario:[22m Affichage de la page des émissions - MCD                                                                                                                 [30m# features\BO\mcd\other__mcd\menu__mcd\affichage_de_la_page_des_emissions__mcd.feature:11[39m
+    [36mGiven I am on "[39m[36;1mhttp://pp.bart.france24.com/ar/20160902-%D8%AF%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9[39;22m[36m"[39m [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1mفي مختبر مخبز الحلويات[39;22m[36m"[39m                                                                                                                       [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I follow "[39m[36;1mفي مختبر مخبز الحلويات[39;22m[36m"[39m                                                                                                                            [30m# FeatureContext::clickLink()[39m
+    [36mThen I should see "[39m[36;1mإعداد إذاعة فرنسا الدولية (ار اف ايه)[39;22m[36m"[39m                                                                                                        [30m# FeatureContext::assertPageContainsText()[39m
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\mcd\other__mcd\menu__mcd\affichage_de_la_page_des_emissions__mcd.feature:11[39m
+
+1 scenario ([31m1 failed[39m)
+9 steps ([32m4 passed[39m, [31m1 failed[39m, [36m4 skipped[39m)
+0m23.38s (14.83Mb)

@@ -1,0 +1,31 @@
+[1mFeature:[22m Make a quick check on France 24
+
+  [1mScenario:[22m Perform a simple check on the France 24' menu [30m# features/FMM.feature:3[39m
+    [32mGiven I am on "[39m[32;1mhttp://www.france24.com/fr[39;22m[32m"[39m            [30m# FeatureContext::visit()[39m
+    [32mThen I should see "[39m[32;1mA LA UNE[39;22m[32m"[39m                          [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I should see "[39m[32;1mFRANCE[39;22m[32m"[39m                             [30m# FeatureContext::assertPageContainsText()[39m
+    [32mThen I should see "[39m[32;1mAFRIQUE[39;22m[32m"[39m                           [30m# FeatureContext::assertPageContainsText()[39m
+    [32mThen I should see "[39m[32;1mMOYEN-ORIENT[39;22m[32m"[39m                      [30m# FeatureContext::assertPageContainsText()[39m
+    [32mThen I should see "[39m[32;1mEUROPE[39;22m[32m"[39m                            [30m# FeatureContext::assertPageContainsText()[39m
+    [32mThen I should see "[39m[32;1mAMÉRIQUES[39;22m[32m"[39m                         [30m# FeatureContext::assertPageContainsText()[39m
+    [32mThen I should see "[39m[32;1mASIE-PACIFIQUE[39;22m[32m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+    [32mThen I should see "[39m[32;1mSPORTS[39;22m[32m"[39m                            [30m# FeatureContext::assertPageContainsText()[39m
+    [31mThen I should see "[39m[31;1mECO/TECH[39;22m[31m"[39m                          [30m# FeatureContext::assertPageContainsText()[39m
+[31m      The text "ECO/TECH" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+    │
+    │  Screenshot at: /Applications/MAMP/htdocs/2/screenshots/2016-08-23_17-25-36_57bc6af043483.png
+    │
+    └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+    [36mThen I should see "[39m[36;1mCULTURE[39;22m[36m"[39m                           [30m# FeatureContext::assertPageContainsText()[39m
+    [36mThen I should see "[39m[36;1mPLANÈTE[39;22m[36m"[39m                           [30m# FeatureContext::assertPageContainsText()[39m
+    [36mThen I should see "[39m[36;1mREPORTAGES[39;22m[36m"[39m                        [30m# FeatureContext::assertPageContainsText()[39m
+    [36mThen I should see "[39m[36;1mBLOGS[39;22m[36m"[39m                             [30m# FeatureContext::assertPageContainsText()[39m
+    [36mThen I should see "[39m[36;1mDOSSIERS[39;22m[36m"[39m                          [30m# FeatureContext::assertPageContainsText()[39m
+
+--- [31mScénarios échoués:[39m
+
+    [31mfeatures/FMM.feature:3[39m
+
+1 scénario ([31m1 échecs[39m)
+15 étapes ([32m9 succès[39m, [31m1 échecs[39m, [36m5 ignorés[39m)
+0m56.97s (13.13Mb)

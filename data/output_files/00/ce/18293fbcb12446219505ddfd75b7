@@ -1,0 +1,31 @@
+[1mFeature:[22m Article
+
+  [1mBackground:[22m                                               [30m# features\rfi\web\musique\bo\article.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttps://ppr.admin.musique.rfi.priv/user[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybrault[39;22m[32m"[39m                [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8Musique![39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1mSe connecter[39;22m[32m"[39m                              [30m# FeatureContext::pressButton()[39m
+    [32mAnd I should see "[39m[32;1mTableau de bord[39;22m[32m"[39m                      [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Créer article                                                                           [30m# features\rfi\web\musique\bo\article.feature:12[39m
+    [32mGiven I am on "[39m[32;1mhttps://ppr.admin.musique.rfi.priv/node/add/article[39;22m[32m"[39m                             [30m# FeatureContext::visit()[39m
+    [32mAnd I should see "[39m[32;1mSupertag[39;22m[32m"[39m                                                                     [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I select "[39m[32;1mArticle[39;22m[32m" from "[39m[32;1medit-field-content-supertag-und[39;22m[32m"[39m                                   [30m# FeatureContext::selectOption()[39m
+    [32mAnd I fill in "[39m[32;1medit-title[39;22m[32m" with "[39m[32;1mtest création article[39;22m[32m"[39m                                         [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1mEnregistrer[39;22m[32m"[39m                                                                       [30m# FeatureContext::pressButton()[39m
+    [32mAnd I should see "[39m[32;1mLe contenu 'test création article', de type 'Article', a été créé[39;22m[32m"[39m            [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I follow "[39m[32;1mModifier[39;22m[32m"[39m                                                                         [30m# FeatureContext::clickLink()[39m
+    [32mAnd I should see "[39m[32;1m Modifier Article test création article[39;22m[32m"[39m                                      [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I fill in "[39m[32;1medit-title[39;22m[32m" with "[39m[32;1mtest création article-EDIT[39;22m[32m"[39m                                    [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1mEnregistrer[39;22m[32m"[39m                                                                       [30m# FeatureContext::pressButton()[39m
+    [32mAnd I should see "[39m[32;1mLe contenu 'test création article-EDIT', de type 'Article', a été mis à jour[39;22m[32m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I follow "[39m[32;1mModifier[39;22m[32m"[39m                                                                         [30m# FeatureContext::clickLink()[39m
+    [32mAnd I should see "[39m[32;1mModifier Article test création article-EDIT[39;22m[32m"[39m                                  [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I press "[39m[32;1mSupprimer[39;22m[32m"[39m                                                                         [30m# FeatureContext::pressButton()[39m
+    [32mAnd I should see "[39m[32;1mCette action est irréversible[39;22m[32m"[39m                                                [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I press "[39m[32;1mSupprimer[39;22m[32m"[39m                                                                         [30m# FeatureContext::pressButton()[39m
+    [32mAnd I should see "[39m[32;1mLe contenu 'test création article-EDIT', de type 'Article', a été supprimé[39;22m[32m"[39m   [30m# FeatureContext::assertPageContainsText()[39m
+
+1 scenario ([32m1 passed[39m)
+22 steps ([32m22 passed[39m)
+0m40.46s (14.76Mb)

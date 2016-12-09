@@ -1,0 +1,28 @@
+[1mFeature:[22m Emission - BART
+
+  [1mBackground:[22m                                            [30m# features\BO\bart\other__bart\crud__bart\emission__bart.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybrault[39;22m[32m"[39m             [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8Bart![39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario:[22m Emission - Bart                                                        [30m# features\BO\bart\other__bart\crud__bart\emission__bart.feature:11[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/node/add/emission[39;22m[32m"[39m               [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-title[39;22m[32m" with "[39m[32;1mTitre Emission - Test QA[39;22m[32m"[39m                     [30m# FeatureContext::fillField()[39m
+    [32mAnd I check "[39m[32;1medit-status[39;22m[32m"[39m                                                      [30m# FeatureContext::checkOption()[39m
+    [32mAnd I press "[39m[32;1mEnregistrer[39;22m[32m"[39m                                                      [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mEmission Titre Emission - Test QA has been created.[39;22m[32m"[39m        [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I wait "[39m[32;1m5[39;22m[32m" seconds[39m                                                         [30m# FeatureContext::iWaitXSeconds()[39m
+    [32mAnd I follow "[39m[32;1mÉditer[39;22m[32m"[39m                                                          [30m# FeatureContext::clickLink()[39m
+    [32mAnd I fill in "[39m[32;1medit-title[39;22m[32m" with "[39m[32;1mTitre Emission - Test QA - EDIT[39;22m[32m"[39m              [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1mEnregistrer[39;22m[32m"[39m                                                      [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mEmission Titre Emission - Test QA - EDIT has been updated.[39;22m[32m"[39m [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I follow "[39m[32;1mÉditer[39;22m[32m"[39m                                                          [30m# FeatureContext::clickLink()[39m
+    [32mAnd I press "[39m[32;1mSupprimer[39;22m[32m"[39m                                                        [30m# FeatureContext::pressButton()[39m
+    [32mAnd I should see "[39m[32;1mCette action est irréversible.[39;22m[32m"[39m                              [30m# FeatureContext::assertPageContainsText()[39m
+    [32mAnd I press "[39m[32;1mSupprimer[39;22m[32m"[39m                                                        [30m# FeatureContext::pressButton()[39m
+
+1 scenario ([32m1 passed[39m)
+19 steps ([32m19 passed[39m)
+1m0.91s (14.78Mb)

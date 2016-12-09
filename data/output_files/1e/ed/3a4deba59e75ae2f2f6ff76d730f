@@ -1,0 +1,36 @@
+[1mFeature:[22m Menu - BART
+
+  [1mBackground:[22m                                            [30m# features\BO\france_24\bart\other__bart\menu__bart.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.bart.france24.com/fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1mybrault[39;22m[32m"[39m             [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest8Bart![39;22m[32m"[39m          [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                            [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m                    [30m# FeatureContext::assertPageContainsText()[39m
+
+  [36m@Auto[39m
+  [1mScenario Outline:[22m Ouvrir/Fermer menu - BART [30m# features\BO\france_24\bart\other__bart\menu__bart.feature:12[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m                [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I should see "[39m[36;1m<TEXT2>[39;22m[36m"[39m                [30m# FeatureContext::assertPageContainsText()[39m
+    [36mAnd I follow "[39m[36;1m<TEXT>[39;22m[36m"[39m                     [30m# FeatureContext::clickLink()[39m
+    [36mThen I should not see "[39m[36;1m<TEXT2>[39;22m[36m"[39m           [30m# FeatureContext::assertPageNotContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT       [39;22m|[36;1m TEXT2           [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m open/close [39m|[32m Type of content [39m|[32m             [39m|
+
+  [1mScenario Outline:[22m Check all search field - BART [30m# features\BO\france_24\bart\other__bart\menu__bart.feature:22[39m
+    [36mAnd I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m                     [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                       [39;22m|[36;1m hiptest-uid [39;22m|
+      |[32m open/close                 [39m|[32m             [39m|
+      |[32m Rechercher                 [39m|[32m             [39m|
+      |[32m Bookmarks                  [39m|[32m             [39m|
+      |[32m History                    [39m|[32m             [39m|
+      |[32m RSS Stories                [39m|[32m             [39m|
+      |[32m Fulltext Search            [39m|[32m             [39m|
+      |[32m Title                      [39m|[32m             [39m|
+      |[32m Type of content            [39m|[32m             [39m|
+      |[32m Theme tags                 [39m|[32m             [39m|
+      |[32m Emission                   [39m|[32m             [39m|
+      |[32m Tag author                 [39m|[32m             [39m|

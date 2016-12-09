@@ -1,0 +1,99 @@
+[1mFeature:[22m Menu latéral - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m   [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario Outline:[22m Menu latéral - Joko [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:11[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m          [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                  [39;22m|
+      |[32m Administration rapide [39m|
+      |[32m Statuts               [39m|
+      |[32m Urgents               [39m|
+      |[32m Émission              [39m|
+      |[31m Blocs                 [39m|
+[31m        The text "Blocs" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584927b9adfac.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m Créer un contenu      [39m|
+      |[32m Article               [39m|
+      |[32m Edition               [39m|
+      |[32m Element multimedia    [39m|
+      |[32m Dossier               [39m|
+      |[32m Emission              [39m|
+      |[32m Fiche pays            [39m|
+      |[32m Image                 [39m|
+      |[31m Flux                  [39m|
+[31m        The text "Flux" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584927fd8dc0c.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[31m Global profile        [39m|
+[31m        The text "Global profile" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_58492804b4154.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m Liens externes        [39m|
+      |[32m Page                  [39m|
+      |[32m Page composée         [39m|
+      |[31m Profil                [39m|
+[31m        The text "Profil" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_58492820a6a7c.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m RSS Feed              [39m|
+      |[31m RSS Story             [39m|
+[31m        The text "RSS Story" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849282de0c2c.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m Son                   [39m|
+      |[31m Story                 [39m|
+[31m        The text "Story" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849283dbca0c.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m Urgent                [39m|
+      |[32m Vidéo                 [39m|
+      |[32m Wire                  [39m|
+      |[32m Author tag metadata   [39m|
+      |[32m Diaporama Full Page   [39m|
+      |[32m Infographie           [39m|
+      |[31m Paramètres            [39m|
+[31m        The text "Paramètres" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584928794afb0.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m Timeline              [39m|
+      |[32m Mon compte            [39m|
+      |[32m Rechercher un contenu [39m|
+      |[32m Administrer           [39m|
+      |[32m Se déconnecter        [39m|
+      |[32m RFI News              [39m|
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:20[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:29[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:30[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:34[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:36[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:38[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\menu_lateral__joko.feature:45[39m
+
+36 scenarios ([32m29 passed[39m, [31m7 failed[39m)
+216 steps ([32m209 passed[39m, [31m7 failed[39m)
+5m20.90s (15.24Mb)

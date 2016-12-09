@@ -1,0 +1,11 @@
+# behat.yml
+default:
+    suites:
+        default:
+            contexts:
+                - FeatureContext
+    extensions:
+        Behat\MinkExtension:
+            selenium2:
+                wd_host: http://127.0.0.1:4444/wd/hub
+            base_url:  'http://www.france24.com'

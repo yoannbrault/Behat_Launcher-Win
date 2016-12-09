@@ -1,0 +1,60 @@
+[1mFeature:[22m Top menu - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\top_menu__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m   [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [1mScenario Outline:[22m 1st Top menu - Joko [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\top_menu__joko.feature:11[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m          [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                  [39;22m|
+      |[32m Visualiser            [39m|
+      |[32m Modifier              [39m|
+      |[32m Documents verrouillés [39m|
+
+  [1mScenario Outline:[22m 2nd Top menu - Joko [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\top_menu__joko.feature:20[39m
+    [36mAnd I am on "[39m[36;1m<URL>[39;22m[36m"[39m                 [30m# FeatureContext::visit()[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m          [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m URL                   [39;22m|[36;1m TEXT            [39;22m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Visualiser      [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Modifier        [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Révisions       [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Statut          [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[31m Blocs           [39m|
+[31m        The text "Blocs" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584927eb6c8cc.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m http://pp.joko.rfi.fr [39m|[31m Champs          [39m|
+[31m        The text "Champs" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_584927f89801c.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m http://pp.joko.rfi.fr [39m|[32m Zones           [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[31m Dupliquer       [39m|
+[31m        The text "Dupliquer" was not found anywhere in the text of the current page. (Behat\Mink\Exception\ResponseTextException)[39m
+        │
+        │  Screenshot at: C:\MAMP\htdocs\Launcher\screenshots\1_5849280f0ae4c.png
+        │
+        └─ [32m@AfterStep[39m [30m# FeatureContext::afterStep()[39m
+      |[32m http://pp.joko.rfi.fr [39m|[32m PreviewH        [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m See on front    [39m|
+      |[32m http://pp.joko.rfi.fr [39m|[32m Resend to front [39m|
+
+--- [31mFailed scenarios:[39m
+
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\top_menu__joko.feature:30[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\top_menu__joko.feature:31[39m
+    [31mfeatures\BO\joko\other__joko\affichage_de_la_home__joko\top_menu__joko.feature:33[39m
+
+14 scenarios ([32m11 passed[39m, [31m3 failed[39m)
+95 steps ([32m92 passed[39m, [31m3 failed[39m)
+3m20.27s (14.98Mb)

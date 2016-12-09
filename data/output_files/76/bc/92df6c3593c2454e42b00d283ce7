@@ -1,0 +1,15 @@
+
+[37;41m                                          [39;49m
+[37;41m  [Behat\Mink\Exception\DriverException]  [39;49m
+[37;41m  Could not close connection              [39;49m
+[37;41m                                          [39;49m
+
+[37;41m                                                                               [39;49m
+[37;41m  [WebDriver\Exception\CurlExec]                                               [39;49m
+[37;41m  Curl error thrown for http DELETE to http://127.0.0.1:4444/wd/hub/session/1  [39;49m
+[37;41m  61ac6f4-cb40-49c7-a036-9c3cf131445b                                          [39;49m
+[37;41m  Failed to connect to 127.0.0.1 port 4444: Connection refused                 [39;49m
+[37;41m                                                                               [39;49m
+
+[32mbehat [-s|--suite SUITE] [-f|--format FORMAT] [-o|--out OUT] [--format-settings FORMAT-SETTINGS] [--init] [--lang LANG] [--name NAME] [--tags TAGS] [--role ROLE] [--story-syntax] [-d|--definitions DEFINITIONS] [--append-snippets] [--no-snippets] [--strict] [--order ORDER] [--rerun] [--stop-on-failure] [--dry-run] [--] [[39m[32m<paths>[39m[32m][39m
+

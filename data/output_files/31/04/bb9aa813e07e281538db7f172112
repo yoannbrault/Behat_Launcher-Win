@@ -1,0 +1,25 @@
+[1mFeature:[22m Accès rapide - Joko
+
+  [1mBackground:[22m                                   [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\acces_rapide__joko.feature:4[39m
+    [32mGiven I am on "[39m[32;1mhttp://pp.joko.rfi.fr/user/[39;22m[32m"[39m [30m# FeatureContext::visit()[39m
+    [32mAnd I fill in "[39m[32;1medit-name[39;22m[32m" with "[39m[32;1musertestbo[39;22m[32m"[39m [30m# FeatureContext::fillField()[39m
+    [32mAnd I fill in "[39m[32;1medit-pass[39;22m[32m" with "[39m[32;1mTest012*[39;22m[32m"[39m   [30m# FeatureContext::fillField()[39m
+    [32mAnd I press "[39m[32;1medit-submit[39;22m[32m"[39m                   [30m# FeatureContext::pressButton()[39m
+    [32mThen I should see "[39m[32;1mmembre depuis[39;22m[32m"[39m           [30m# FeatureContext::assertPageContainsText()[39m
+
+  [36m@Auto[39m
+  [1mScenario Outline:[22m Accès rapide - Joko [30m# features\BO\joko\other__joko\affichage_de_la_home__joko\acces_rapide__joko.feature:12[39m
+    [36mThen I should see "[39m[36;1m<TEXT>[39;22m[36m"[39m          [30m# FeatureContext::assertPageContainsText()[39m
+
+    [1mExamples:[22m
+      |[36;1m TEXT                                             [39;22m|
+      |[32m EM hermes Header                                 [39m|
+      |[32m Hermes Accueil 2 colonne de droite Autopromotion [39m|
+      |[32m Hermes Bloc Analyses - Reportages                [39m|
+      |[32m EM Hermes carrousel Fil des emissions            [39m|
+      |[32m Hermes Accueil 9 Grand angle                     [39m|
+      |[32m EM Hermes HP - Derniers Billets Blogs            [39m|
+
+6 scenarios ([32m6 passed[39m)
+36 steps ([32m36 passed[39m)
+1m10.30s (14.92Mb)
