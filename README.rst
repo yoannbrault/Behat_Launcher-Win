@@ -42,9 +42,7 @@ To install Behat-Launcher, you will need:
 * Copier/Coller le fichier php.ini se trouvant dans "c:\MAMP\conf et le coller" dans "c:\MAMP\bin\php\php5.6.24" (vérifier que la ligne extension=php_openssl.dll n’a pas de “;” devant et pareil pour  date.timezone * Europe/Paris <= ajouté Europe/Paris s’il n’y est pas)
 * Cloner le dossier “git clone git@github.com:yoannbrault/Behat_Launcher_FMM-Win.git”
 * Supprimer les dossiers dans /features SAUF bootstrap 
-* Depuis MAMP, dans les préférences :
--dans l’onglet PHP, sélectionné php 5.6.24-
--Ouvir ensuite un terminal :-
+* Depuis MAMP, dans les préférences, dans l’onglet PHP, sélectionné php 5.6.24 et ouvir ensuite un terminal :
 
 saisir :
 
@@ -56,7 +54,6 @@ ensuite :
 
 .. code-block:: bash
 
-    php composer.phar install
     php composer.phar install
     npm install -g bower
     npm install -g grunt-cli
@@ -77,7 +74,7 @@ Use the config.php.dist file to get an exhaustive list of configuration features
     ->setRunnerCount(3)           // Changes number of processes to run concurrently.
     ->setBehatBin('C:\MAMP\htdocs\Launcher\vendor\behat\behat\bin\behat');      // Path where behat is located
 
-- Re-ouvrir un terminal et lancé la commande : 
+- Re-ouvrir un terminal et lancer la commande : 
 .. code-block:: bash 
 
     php behat-launcher init-db
@@ -85,8 +82,8 @@ Use the config.php.dist file to get an exhaustive list of configuration features
 * Depuis MAMP, dans les préférences :
 .. code-block:: bash 
 
-    Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
-    Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
+    - Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
+
 
 - Depuis un terminal lancer les commandes :
 
