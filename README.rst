@@ -95,7 +95,7 @@ depuis un 2nd terminal lancer :
 
 .. code-block:: bash
 
-    java -jar selenium-server-standalone-2.51.0.jar
+    java -jar selenium-server-standalone-2.53.1.jar
 
 depuis un 3eme terminal lancer :
 
