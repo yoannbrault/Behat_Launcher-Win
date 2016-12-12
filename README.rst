@@ -43,8 +43,9 @@ To install Behat-Launcher, you will need:
 * Cloner le dossier “git clone git@github.com:yoannbrault/Behat_Launcher_FMM-Win.git”
 * Supprimer les dossiers dans /features SAUF bootstrap 
 * Depuis MAMP, dans les préférences :
-- dans l’onglet PHP, sélectionné php 5.6.24
-- Ouvir ensuite un terminal :
+-dans l’onglet PHP, sélectionné php 5.6.24-
+-Ouvir ensuite un terminal :-
+
 saisir :
 
 .. code-block:: bash
@@ -82,8 +83,10 @@ Use the config.php.dist file to get an exhaustive list of configuration features
     php behat-launcher init-db
 
 * Depuis MAMP, dans les préférences :
--Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
--Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
+.. code-block:: bash 
+
+    Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
+    Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
 
 - Depuis un terminal lancer les commandes :
 
