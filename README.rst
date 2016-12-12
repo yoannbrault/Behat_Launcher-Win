@@ -29,8 +29,8 @@ To install Behat-Launcher, you will need:
 * Selenium-server-standalone-2.53.1.jar "http://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.1.jar"
 * Firefox "https://ftp.mozilla.org/pub/firefox/releases/45.3.0esr/)
 * msysgit "https://git-for-windows.github.io/) bien ajouté le path
-* Ruby installé
-* Hiptest publisher installer :
+* Installer Ruby
+* Installer Hiptest publisher  :
 .. code-block:: bash
 
     gem install hiptest-publisher
@@ -40,7 +40,7 @@ To install Behat-Launcher, you will need:
 * Télécharger et installer MAMP
 * Créer un dossier où installer behat, idealement dans c:\MAMP\htdocs\web
 * Copier/Coller le fichier php.ini se trouvant dans "c:\MAMP\conf et le coller" dans "c:\MAMP\bin\php\php5.6.24" (vérifier que la ligne extension=php_openssl.dll n’a pas de “;” devant et pareil pour  date.timezone * Europe/Paris <= ajouté Europe/Paris s’il n’y est pas)
-* Cloner le dossier “git clone git@github.com:yoannbrault/Behat_Launcher_FMM.git”
+* Cloner le dossier “git clone git@github.com:yoannbrault/Behat_Launcher_FMM-Win.git”
 * Supprimer les dossiers dans /features SAUF bootstrap 
 * Depuis MAMP, dans les préférences :
 - dans l’onglet PHP, sélectionné php 5.6.24
@@ -82,8 +82,8 @@ Use the config.php.dist file to get an exhaustive list of configuration features
     php behat-launcher init-db
 
 * Depuis MAMP, dans les préférences :
-- Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
-- Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
+-Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
+-Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
 
 - Depuis un terminal lancer les commandes :
 
@@ -91,13 +91,13 @@ Use the config.php.dist file to get an exhaustive list of configuration features
 
  php behat-launcher run
 
-- depuis un 2nd terminal lancer :
+depuis un 2nd terminal lancer :
 
 .. code-block:: bash
 
     java -jar selenium-server-standalone-2.51.0.jar
 
-- depuis un 3eme terminal lancer :
+depuis un 3eme terminal lancer :
 
 .. code-block:: bash
 
