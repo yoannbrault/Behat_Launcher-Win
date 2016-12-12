@@ -46,49 +46,61 @@ saisir :
 
 .. code-block:: bash
 
-“curl -s http://getcomposer.org/installer | php -d detect_unicode=Off
+    curl -s http://getcomposer.org/installer | php -d detect_unicode=Off
 
 ensuite :
 
 .. code-block:: bash
 
-php composer.phar install
-npm install -g bower
-npm install -g grunt-cli
-bower install
-npm install
-grunt
-
-
+    php composer.phar install
+    php composer.phar install
+    npm install -g bower
+    npm install -g grunt-cli
+    bower install
+    npm install
+    grunt
+  
 Use the config.php.dist file to get an exhaustive list of configuration features. Modify it to match the requirement
 
 .. code-block:: bash
 
-// MANDATORY: Configure database
-$app->configureMysql('localhost:3306', 'behat_launcher', 'root', 'root');
 
-// OPTIONAL: Advanced project configuration
+    // MANDATORY: Configure database
+    $app->configureMysql('localhost:3306', 'behat_launcher', 'root', 'root');
+    // OPTIONAL: Advanced project configuration
  $app->createProject('FMM', 'C:\MAMP\htdocs\Launcher')
     ->setRunnerCount(3)           // Changes number of processes to run concurrently.
     ->setBehatBin('C:\MAMP\htdocs\Launcher\vendor\behat\behat\bin\behat');      // Path where behat is located
 
-Re-ouvrir un terminal et lancé la commande : “php behat-launcher init-db”
-Depuis MAMP, dans les préférences :
-Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
-Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bieb
-Depuis un terminal lancé les commandes :
+- Re-ouvrir un terminal et lancé la commande : “php behat-launcher init-db”
+- Depuis MAMP, dans les préférences :
+-- Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
+-- Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
+
+- Depuis un terminal lancer les commandes :
+
+.. code-block:: bash
+
  php behat-launcher run
-depuis un 2nd terminal lancer java -jar selenium-server-standalone-2.51.0.jar
+
+depuis un 2nd terminal lancer :
+
+.. code-block:: bash
+
+    java -jar selenium-server-standalone-2.51.0.jar
+
 depuis un 3eme terminal lancer :
 
 .. code-block:: bash
 
-hiptest-publisher -c hiptest-publisher_BO.conf
+    hiptest-publisher -c hiptest-publisher_BO.conf
 
 retourner sur le navigateur : localhost et lancer un run de test
 
 
-
+___________________________________________________________________________________________________________________
+Other installation
+___________________________________________________________________________________________________________________
 
 
 **1. Get the code**
