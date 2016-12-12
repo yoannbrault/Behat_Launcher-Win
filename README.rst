@@ -23,9 +23,73 @@ To install Behat-Launcher, you will need:
 * PHP 5.4 (at least & NOT PHP 7 !)
 * Apache2 or Nginx or anything that can run a PHP application
 * A MySQL database
-* NodeJS and npm to install Bower and Grunt
-* Selenium-server-standalone-x.xx.x.jar
-* Firefox
+* You can have all (PHP, mysql & Apache2) by installing MAMP
+* cURL (https://dl.uxnr.de/build/curl/curl_winssl_msys2_mingw64_stc/curl-7.51.0/curl-7.51.0.zip)
+* NodeJS and npm to install Bower and Grunt (https://nodejs.org/dist/v6.9.2/node-v6.9.2-x64.msi)
+* Selenium-server-standalone-2.53.1.jar (http://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.1.jar)
+* Firefox (https://ftp.mozilla.org/pub/firefox/releases/45.3.0esr/)
+* msysgit (https://git-for-windows.github.io/) bien ajouté le path
+* Ruby installé
+* Hiptest publisher installé (gem install hiptest-publisher)
+
+**Windows installation**
+
+* Télécharger et installer MAMP
+* Créer un dossier où installer behat, idealement dans c:\MAMP\htdocs\web
+* Copier/Coller le fichier php.ini se trouvant dans c:\MAMP\conf et le coller dans C:\MAMP\bin\php\php5.6.24 (vérifier que la ligne extension=php_openssl.dll n’a pas de “;” devant et pareil pour  date.timezone * Europe/Paris <= ajouté Europe/Paris s’il n’y est pas)
+* Cloner le dossier “git clone git@github.com:yoannbrault/Behat_Launcher_FMM.git”
+* Supprimer les dossiers dans /features SAUF bootstrap 
+* Depuis MAMP, dans les préférences :
+- dans l’onglet PHP, sélectionné php 5.6.24
+- Ouvir ensuite un terminal :
+saisir :
+
+.. code-block:: bash
+
+“curl -s http://getcomposer.org/installer | php -d detect_unicode=Off
+
+ensuite :
+
+.. code-block:: bash
+
+php composer.phar install
+npm install -g bower
+npm install -g grunt-cli
+bower install
+npm install
+grunt
+
+
+Use the config.php.dist file to get an exhaustive list of configuration features. Modify it to match the requirement
+
+.. code-block:: bash
+
+// MANDATORY: Configure database
+$app->configureMysql('localhost:3306', 'behat_launcher', 'root', 'root');
+
+// OPTIONAL: Advanced project configuration
+ $app->createProject('FMM', 'C:\MAMP\htdocs\Launcher')
+    ->setRunnerCount(3)           // Changes number of processes to run concurrently.
+    ->setBehatBin('C:\MAMP\htdocs\Launcher\vendor\behat\behat\bin\behat');      // Path where behat is located
+
+Re-ouvrir un terminal et lancé la commande : “php behat-launcher init-db”
+Depuis MAMP, dans les préférences :
+Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
+Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bieb
+Depuis un terminal lancé les commandes :
+ php behat-launcher run
+depuis un 2nd terminal lancer java -jar selenium-server-standalone-2.51.0.jar
+depuis un 3eme terminal lancer :
+
+.. code-block:: bash
+
+hiptest-publisher -c hiptest-publisher_BO.conf
+
+retourner sur le navigateur : localhost et lancer un run de test
+
+
+
+
 
 **1. Get the code**
 
