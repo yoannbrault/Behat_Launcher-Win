@@ -24,19 +24,22 @@ To install Behat-Launcher, you will need:
 * Apache2 or Nginx or anything that can run a PHP application
 * A MySQL database
 * You can have all (PHP, mysql & Apache2) by installing MAMP
-* cURL (https://dl.uxnr.de/build/curl/curl_winssl_msys2_mingw64_stc/curl-7.51.0/curl-7.51.0.zip)
-* NodeJS and npm to install Bower and Grunt (https://nodejs.org/dist/v6.9.2/node-v6.9.2-x64.msi)
-* Selenium-server-standalone-2.53.1.jar (http://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.1.jar)
-* Firefox (https://ftp.mozilla.org/pub/firefox/releases/45.3.0esr/)
-* msysgit (https://git-for-windows.github.io/) bien ajouté le path
+* cURL "https://dl.uxnr.de/build/curl/curl_winssl_msys2_mingw64_stc/curl-7.51.0/curl-7.51.0.zip"
+* NodeJS and npm to install Bower and Grunt "https://nodejs.org/dist/v6.9.2/node-v6.9.2-x64.msi"
+* Selenium-server-standalone-2.53.1.jar "http://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.1.jar"
+* Firefox "https://ftp.mozilla.org/pub/firefox/releases/45.3.0esr/)
+* msysgit "https://git-for-windows.github.io/) bien ajouté le path
 * Ruby installé
-* Hiptest publisher installé (gem install hiptest-publisher)
+* Hiptest publisher installer :
+.. code-block:: bash
+
+    gem install hiptest-publisher
 
 **Windows installation**
 
 * Télécharger et installer MAMP
 * Créer un dossier où installer behat, idealement dans c:\MAMP\htdocs\web
-* Copier/Coller le fichier php.ini se trouvant dans c:\MAMP\conf et le coller dans C:\MAMP\bin\php\php5.6.24 (vérifier que la ligne extension=php_openssl.dll n’a pas de “;” devant et pareil pour  date.timezone * Europe/Paris <= ajouté Europe/Paris s’il n’y est pas)
+* Copier/Coller le fichier php.ini se trouvant dans "c:\MAMP\conf et le coller" dans "c:\MAMP\bin\php\php5.6.24" (vérifier que la ligne extension=php_openssl.dll n’a pas de “;” devant et pareil pour  date.timezone * Europe/Paris <= ajouté Europe/Paris s’il n’y est pas)
 * Cloner le dossier “git clone git@github.com:yoannbrault/Behat_Launcher_FMM.git”
 * Supprimer les dossiers dans /features SAUF bootstrap 
 * Depuis MAMP, dans les préférences :
@@ -67,15 +70,20 @@ Use the config.php.dist file to get an exhaustive list of configuration features
 
     // MANDATORY: Configure database
     $app->configureMysql('localhost:3306', 'behat_launcher', 'root', 'root');
+
     // OPTIONAL: Advanced project configuration
  $app->createProject('FMM', 'C:\MAMP\htdocs\Launcher')
     ->setRunnerCount(3)           // Changes number of processes to run concurrently.
     ->setBehatBin('C:\MAMP\htdocs\Launcher\vendor\behat\behat\bin\behat');      // Path where behat is located
 
-- Re-ouvrir un terminal et lancé la commande : “php behat-launcher init-db”
-- Depuis MAMP, dans les préférences :
--- Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
--- Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
+- Re-ouvrir un terminal et lancé la commande : 
+.. code-block:: bash 
+
+    php behat-launcher init-db
+
+* Depuis MAMP, dans les préférences :
+- Onglet Web Server, sélectionné le Documents Root “C:\MAMP\htdocs\Behat_Launcher\web”
+- Ouvrir un navigateur et aller sur localhost pour vérifier que la page se lance bien
 
 - Depuis un terminal lancer les commandes :
 
@@ -83,19 +91,19 @@ Use the config.php.dist file to get an exhaustive list of configuration features
 
  php behat-launcher run
 
-depuis un 2nd terminal lancer :
+- depuis un 2nd terminal lancer :
 
 .. code-block:: bash
 
     java -jar selenium-server-standalone-2.51.0.jar
 
-depuis un 3eme terminal lancer :
+- depuis un 3eme terminal lancer :
 
 .. code-block:: bash
 
     hiptest-publisher -c hiptest-publisher_BO.conf
 
-retourner sur le navigateur : localhost et lancer un run de test
+- retourner sur le navigateur : access http://localhost et lancer un run de test
 
 
 ___________________________________________________________________________________________________________________
@@ -136,7 +144,7 @@ You can install these tools using npm, the NodeJS package manager:
     npm install -g bower
     npm install -g grunt-cli
 
-You can now install the assets:
+You can now install the assets :
 
 .. code-block:: bash
 
