@@ -273,4 +273,10 @@ To check the result of a run
 - Add the browserstack support
 - Add a green dot to tell if the runner and the selenium server are up
 - Add a button to update all feature to be up to date 
-- Check if we can implement Behat Launcher with Genkins
+- Check if we can implement Behat Launcher with Jenkins
+
+
+** Original behat launcher repo **
+https://github.com/alexandresalome/behat-launcher
+
+Thank you Alexandre for this awesome tool !
