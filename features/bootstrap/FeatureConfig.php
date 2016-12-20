@@ -2,12 +2,12 @@
 //url
 define('BASE', 'http://');
 define('LOGIN', '/login');
-define('BASE_URL', 'france24.com');
+define('BASE_URL', 'xxx.com');
 
 // Environment
-define('PRODUCTION', 'ppr.');
-define('DEVEL', 'devel.dev.');
-define('STAGING', 'staging.dev.');
+define('PRODUCTION', 'www.');
+define('DEV', 'xxx.dev.');
+define('STAGING', 'xxx.dev.');
 //User
 //define('', '');
 //define('', '');
